@@ -1,0 +1,173 @@
+.filter-container {
+    width: 250px;
+    border-right: 1px solid #ddd;
+}
+
+.filter-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+}
+
+.filter-toggle {
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    color: #007bff;
+}
+
+.filter-options {
+    padding: 10px;
+}
+
+.filter-section {
+    margin-bottom: 20px;
+}
+
+.filter-section label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.filter-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.filter-section ul li {
+    margin-bottom: 10px;
+}
+
+.filter-section input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.filter-section select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.filter-container {
+    width: 250px;
+    border-right: 1px solid #ddd;
+    padding: 10px;
+}
+
+/* The filter header, where the filter toggle button is */
+.filter-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.filter-toggle {
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    color: #007bff;
+}
+
+.filter-options {
+    padding-top: 10px;
+}
+
+.filter-section {
+    margin-bottom: 20px;
+}
+
+.filter-section label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.filter-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.filter-section ul li {
+    margin-bottom: 10px;
+}
+
+.filter-section input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.filter-section select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .filter-container {
+        width: 200px;
+        padding: 5px;
+    }
+}
+
+@media (max-width: 768px) {
+    .filter-container {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .filter-header {
+        padding-bottom: 5px;
+    }
+
+    .filter-options {
+        padding-top: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .filter-container {
+        width: 100%;
+        border: none;
+        padding: 0;
+    }
+
+    .filter-header {
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .filter-toggle {
+        font-size: 16px;
+    }
+
+    .filter-options {
+        padding: 10px;
+    }
+
+    .filter-section {
+        margin-bottom: 15px;
+    }
+
+    .filter-section label {
+        font-size: 14px;
+    }
+
+    .filter-section input[type="checkbox"] {
+        margin-right: 5px;
+    }
+
+    .filter-section select {
+        padding: 8px;
+        font-size: 14px;
+    }
+}
